@@ -1,0 +1,116 @@
+.App{
+  width: 100vw;
+  height: 100vh;
+}
+
+.header{
+width: 100vw;
+height: 60vmin;
+overflow: hidden;
+
+}
+
+.imgHeader{
+  width: 100%;
+}
+
+.title{
+  padding: 2rem;
+  width: 100vw;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: rgb(151, 145, 145);
+  text-align: center;
+}
+.title span{
+  color: rgb(22, 23, 23);
+  font-weight: bolder;
+  font-size: larger;
+
+}
+.container-filter{
+  
+width: 300px;
+margin: 0 auto;
+display: flex;
+gap: 5px;
+}
+
+input{
+font-size: 20px;
+transition: 5s;
+text-align: center;
+width: 60%;
+height: 50px;
+border: none;
+outline: none;
+border-radius: 25px 0 0 25px;
+background-color: rgb(226, 238, 229);
+
+}
+
+button{
+border-radius: 0 25px 25px 0;
+width: 40%;
+height: 50px;
+border: none;
+outline: none;
+background-color: rgb(93, 92, 93);
+color: #fff;
+cursor: pointer;
+
+}
+.container-cards{
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  
+  padding: 10px;
+  gap: 20px;
+  justify-content: center;
+}
+.container-description{
+  padding: 4rem;
+}
+
+.name-filter{
+text-align: center;
+font-size: 2.5rem;
+
+}
+.description{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  line-height: 2rem;
+  font-size: 1.3rem;
+  
+}
+.cards{
+  border-radius: 10px;
+  background-color: rgb(53, 55, 54);
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 5px;
+  color: #fff;
+
+}
+.img-cards{
+  width: 90%;
+  margin:auto;
+  border-radius: 10px;
+}
+.title-cards{
+text-align: center;
+font-size: 1.9rem;
+}
+.item-card{
+  margin-left: 10px;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+
